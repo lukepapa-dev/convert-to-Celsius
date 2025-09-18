@@ -13,7 +13,7 @@ while True:
     try:
         f = float(fahrenheit)
         c = (f - 32) / 1.8
-        print(f"{f}°F is {c}°C")
+        print(f"{f}°F is {c:.3}°C")
     except ValueError:
         print('Invalid Input! Please try again')
     continue
